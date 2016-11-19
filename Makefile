@@ -8,8 +8,7 @@ local:
 	bundle exec -- \
 	itamae local --node-json=nodes/my.json \
 	roles/essential.rb \
-	roles/server-env.rb \
-	roles/my/app.rb
+	roles/server-env.rb
 
 help:
 	cat Makefile
