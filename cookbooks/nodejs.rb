@@ -19,7 +19,7 @@
     not_if "test -d /usr/local/node-#{node[:nodejs][:version]}-linux-x64"
   end
 
-  %w {
+  %w{
     npm-check-updates
   }.each do |mod|
     execute "Install #{mod}" do

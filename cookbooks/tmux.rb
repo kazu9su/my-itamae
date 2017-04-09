@@ -1,4 +1,4 @@
-%w {
+%w{
   libevent-dev
   libncourses5-dev
 }.each do |pkg|

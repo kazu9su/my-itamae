@@ -1,4 +1,4 @@
-%w {
+%w{
   mysql-server
   mysql-client
   mysql-common
