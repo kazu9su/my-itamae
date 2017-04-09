@@ -17,4 +17,4 @@ execute "Add GPG key" do
   not_if "apt-key list | grep yarn"
 end
 
-package yarn
+package "yarn"
