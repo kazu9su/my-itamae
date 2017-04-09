@@ -1,6 +1,6 @@
 %w{
   libevent-dev
-  libncourses5-dev
+  libncurses5-dev
 }.each do |pkg|
   package pkg
 end
