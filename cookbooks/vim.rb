@@ -12,7 +12,7 @@ execute "Clean previous build" do
 end
 
 execute "Install vim" do
-  command = <<-CMD
+  command <<-CMD
     cd /var/tmp/vim/src && \
     make && make install
   CMD
