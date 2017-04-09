@@ -1,12 +1,13 @@
 %w{
-  mysql-server
-  mysql-client
+  mysql-client-core-5.6
+  mysql-client-5.6
+  mysql-server-5.6
   mysql-common
 }.each do |pkg|
   package pkg
 end
 
-template "/etc/mysql/mysql.conf.d/mysqld_utf8.cnf" do
+template "/etc/mysql/conf.d/mysqld_utf8.cnf" do
   action :create
   source "mysql/templates/mysqld_utf8.cnf.erb"
   mode "0644"

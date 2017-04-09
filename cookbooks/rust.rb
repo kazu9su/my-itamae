@@ -1,5 +1,6 @@
 execute "Install Rust" do
   command <<-CMD
-    curl https://sh.rustup.rs -sSf | sh
+    curl -sf -L https://static.rust-lang.org/rustup.sh | sh
   CMD
+  not_if "test -d /usr/local/lib/rustlib"
 end

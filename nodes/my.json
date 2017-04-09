@@ -3,7 +3,7 @@
     "version": "v6.9.1"
   },
   "mysql": {
-    "character-set": "utf8mb4"
+    "character_set": "utf8mb4"
   },
   "tmux": {
     "version": "2.3"
