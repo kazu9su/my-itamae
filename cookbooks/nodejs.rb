@@ -1,4 +1,4 @@
-  template "etc/profile.d/nodejsrc.sh" do
+  template "/etc/profile.d/nodejsrc.sh" do
     action :create
     source "nodejs/templates/nodejsrc.erb"
     mode "0644"
