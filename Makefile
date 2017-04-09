@@ -3,7 +3,7 @@
 all:
 	Gemfile.lock
 
-Gemfile.lock
+Gemfile.lock: Gemfile
 	bundle install --path vendor/bundle
 
 sakura: Gemfile.lock
