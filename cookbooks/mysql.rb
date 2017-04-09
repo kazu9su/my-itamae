@@ -1,7 +1,6 @@
 %w{
-  mysql-client-core-5.6
-  mysql-client-5.6
-  mysql-server-5.6
+  mysql-client
+  mysql-server
   mysql-common
 }.each do |pkg|
   package pkg

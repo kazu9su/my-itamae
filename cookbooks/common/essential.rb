@@ -9,6 +9,7 @@
   libicu-dev
   libssl-dev
   pkg-config
+  libmysqlclient-dev
 }.each do |pkg|
   package pkg do
     action :install
