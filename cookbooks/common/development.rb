@@ -17,6 +17,7 @@
   zsh
 }.each do |pkg|
   package pkg do
-  action :install
+    action :install
+  end
 end
 
