@@ -10,6 +10,7 @@
   libssl-dev
   pkg-config
   libmysqlclient-dev
+  libpq-dev
 }.each do |pkg|
   package pkg do
     action :install
