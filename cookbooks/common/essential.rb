@@ -11,7 +11,6 @@
   pkg-config
   libmysqlclient-dev
   libpq-dev
-  supervisor
 }.each do |pkg|
   package pkg do
     action :install
