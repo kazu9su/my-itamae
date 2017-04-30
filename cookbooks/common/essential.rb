@@ -11,6 +11,7 @@
   pkg-config
   libmysqlclient-dev
   libpq-dev
+  ctags
 }.each do |pkg|
   package pkg do
     action :install
