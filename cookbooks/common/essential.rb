@@ -12,6 +12,7 @@
   libmysqlclient-dev
   libpq-dev
   ctags
+  libreadline-dev
 }.each do |pkg|
   package pkg do
     action :install

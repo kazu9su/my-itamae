@@ -16,7 +16,7 @@ execute "Install Ruby #{node[:rbenv][:version]}" do
   not_if "test -e #{node[:anyenv][:install_dir]}/envs/rbenv/versions/#{node[:rbenv][:version]}"
 end
 
-execute "Set Perl #{node[:rbenv][:version]} as default" do
+execute "Set Ruby #{node[:rbenv][:version]} as default" do
   user node[:anyenv][:user]
   command <<-CMD
     . #{node[:anyenv][:shell_profile]};
