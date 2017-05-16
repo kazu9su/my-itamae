@@ -23,3 +23,10 @@ execute "Set Ruby #{node[:rbenv][:version]} as default" do
     rbenv global #{node[:rbenv][:version]}
   CMD
 end
+
+execute "Install bundler" do
+  user node[:anyenv][:user]
+  command <<-CMD
+    . #{node[:anyenv][:shell_profile]};
+    gem install bundler
+  CMD
