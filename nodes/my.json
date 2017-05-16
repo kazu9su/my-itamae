@@ -7,5 +7,14 @@
   },
   "tmux": {
     "version": "2.3"
+  },
+  "anyenv": {
+    "user": "root",
+    "repository": "https://github.com/riywo/anyenv.git",
+    "install_dir": "/usr/local/anyenv",
+    "shell_profile": "/etc/profile.d/anyenvrc.sh"
+  },
+  "rbenv": {
+    "version": "2.3.1"
   }
 }
