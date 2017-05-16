@@ -10,4 +10,5 @@ include_recipe "../cookbooks/rust.rb"
 
 include_recipe "../cookbooks/nginx.rb"
 include_recipe "../cookbooks/mysql.rb"
-
+include_recipe "../cookbooks/anyenv/default.rb"
+include_recipe "../cookbooks/anyenv/rbenv.rb"
