@@ -30,3 +30,4 @@ execute "Install bundler" do
     . #{node[:anyenv][:shell_profile]};
     gem install bundler
   CMD
+end

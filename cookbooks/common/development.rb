@@ -15,6 +15,7 @@
   whois
   zip
   zsh
+  libsqlite3-dev
 }.each do |pkg|
   package pkg do
     action :install
